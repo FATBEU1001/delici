@@ -1,0 +1,118 @@
+.info-account {
+    background-color: var(--bg);
+    padding: 50px 0;
+}
+.info-account .group-info {
+    background-color: var(--bg2);
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+.info-account .list-info {
+    background-color: var(--bg);
+    padding: 40px;
+    border-radius: 5px;
+}
+.info-account .list-info li {
+    color: var(--white);
+    line-height: 40px;
+    font-size: 17px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.142);
+    margin-bottom: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: "DM Sans", sans-serif;
+    transition: 0.2s;
+    font-weight: 400;
+}
+.info-account .list-info li:hover {
+    background-color: var(--mainColor);
+    color: black;
+    font-weight: 400;
+}
+.info-account .list-info li.after {
+    background-color: var(--mainColor);
+    color: black;
+    font-weight: 400;
+}
+.info-account .list-content {
+    display: none;
+}
+.info-account .list-content.active {
+    display: block;
+}
+.info-account .list-info li span {
+    margin-right: 15px;
+}
+.info-account .list-information {
+    background-color: var(--bg);
+    padding: 40px;
+    border-radius: 5px;
+}
+.info-account .list-information li {
+    color: var(--white);
+    font-family: "Forum", cursive;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.142);
+    height: 50px;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    padding-left: 20px;
+}
+.info-account .list-input {
+    background-color: var(--bg);
+    padding: 40px;
+    border-radius: 5px;
+}
+.info-account .list-input li input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    background-color: var(--bg2);
+    border: none;
+    padding-left: 20px;
+    border: 1px solid #e4c2905a;
+    outline: none;
+    font-weight: 500;
+    font-family: "Forum", cursive;
+}
+.info-account .list-input li input:focus {
+    border: 1px solid var(--mainColor);
+}
+.info-account .booking-table {
+    background-color: var(--bg);
+    padding: 40px;
+    border-radius: 5px;
+}
+.info-account .booking-table li {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    background-color: var(--bg2);
+    border: none;
+    padding-left: 20px;
+    border: 1px solid #e4c2905a;
+    outline: none;
+    font-weight: 500;
+    font-family: "Forum", cursive;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+}
+.info-account .booking-table .booking-content h3 {
+    color: var(--mainColor) !important;
+    font-family: "Forum", cursive;
+    margin-bottom: 10px;
+}
+.info-account .remove .btn2 {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+    font-size: 15px;
+}

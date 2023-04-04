@@ -1,0 +1,280 @@
+.billing {
+    background-color: var(--bg);
+    padding: 100px 50px;
+}
+.billing .billing-info h3 {
+    color: var(--white);
+    font-family: "Forum", cursive;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.input-group {
+    position: relative;
+}
+.input {
+    border: 1px solid #ffffff;
+    background: transparent;
+    height: 60px;
+    width: 100%;
+    color: var(--mainColor);
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-family: "DM Sans", sans-serif;
+    transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.user-label {
+    position: absolute;
+    left: 1%;
+    font-size: 13px;
+    color: #e8e8e89a;
+    pointer-events: none;
+    transform: translateY(90%);
+    transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding-left: 10px;
+}
+
+.input:focus,
+input:valid {
+    outline: none;
+    border: 1px solid var(--mainColor);
+}
+
+.input:focus ~ label,
+input:valid ~ label {
+    transform: translateY(-50%) scale(0.8);
+    background-color: var(--bg);
+    padding: 0 5px;
+    color: var(--mainColor);
+}
+label {
+    display: unset;
+}
+.c-radio label {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.c-radio label:hover {
+    border: 1px solid var(--mainColor);
+}
+.c-radio label i {
+    font-size: 30px;
+    color: rgb(0, 255, 0);
+}
+.c-radio label input {
+    width: 20px;
+    height: 20px;
+    border: 1px solid blue;
+}
+.c-radio label .text-radio {
+    color: white;
+    font-size: 15px;
+    line-height: 15px;
+}
+.c-radio {
+    margin-bottom: 20px;
+}
+.btn2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 50px;
+    font-size: 15px;
+    margin: 20px 0;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    margin: auto;
+}
+.product-name {
+    padding-left: 20px;
+    width: 100%;
+    /* border-left: 1px solid var(--mainColor); */
+}
+.product-name h3 {
+    color: var(--white);
+    font-family: "Forum", cursive;
+    font-size: 35px;
+    margin-top: 10px;
+}
+/* .product-name .popup .popup-product {
+    gap: 20px;
+}
+.product-name .popup .popup-product .image {
+    width: 25%;
+}
+.product-name .popup .popup-product p {
+    margin-bottom: unset !important;
+}
+.product-name .popup .popup-product h6 {
+    margin-bottom: unset !important;
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.product-name .popup .popup-product .popup-item {
+    line-height: 50px;
+} */
+.popup {
+    width: 100%;
+
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.popup .popup-product {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.popup .popup-product h6 {
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+.popup .popup-product .price {
+    color: rgb(255, 94, 94);
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+}
+.popup .popup-product b {
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+}
+
+.popup .popup-product .image {
+    width: 20%;
+}
+.popup .popup-product .image img {
+    object-fit: cover;
+}
+.popup .popup-product .popup-item {
+    color: var(--white);
+}
+.popup .popup-product .popup-item .price {
+    margin-bottom: unset !important;
+}
+.product-name .discount label {
+    padding-left: 10px;
+}
+.product-name .discount input {
+    width: 70%;
+    height: 60px;
+}
+.product-name .discount {
+    margin-top: 48px;
+}
+.product-name .discount .input-group button {
+    width: 30%;
+    height: 60px;
+    border: none;
+    background-color: var(--mainColor);
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    transition: 0.6s;
+}
+.product-name .discount .input-group button:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.product-name .billing-product {
+    margin-top: 65px;
+}
+.product-name .billing-product h5 {
+    color: var(--white);
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 30px;
+}
+.product-name .billing-product p {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--white);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: white;
+}
+.product-name .billing-product p b {
+    font-weight: 500;
+    color: var(--mainColor);
+}
+.product-name .billing-product .ship b {
+    color: rgb(0, 255, 0);
+}
+.footer .email .input {
+    padding-left: unset !important;
+    border: none;
+}
+.footer .email input:focus {
+    border: 1px solid var(--mainColor);
+}
+.footer .email .icon {
+    top: 15%;
+}
+
+/* .btn2 {
+    position: relative;
+    width: 40%;
+    height: 50px;
+    font-size: 15px;
+    margin: 20px 0;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+}
+.address h3 {
+    color: var(--white);
+    font-family: "Forum", cursive;
+    font-size: 35px;
+    margin: 20px 0;
+}
+.address p {
+    border-bottom: 1px solid var(--white);
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.address p span {
+    color: var(--white);
+}
+.address p b {
+    color: var(--mainColor);
+    font-family: "DM Sans", sans-serif;
+}
+.order-total ul li {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--white);
+}
+.order-total ul li .free b {
+    color: rgb(0, 255, 0);
+    font-weight: 500;
+}
+.order-total ul li span {
+    font-family: "DM Sans", sans-serif;
+    color: var(--mainColor);
+}
+.order-total h3 {
+    color: var(--white);
+    font-size: 35px;
+    font-family: "Forum", cursive;
+    margin-top: 50px;
+    margin-bottom: 20px;
+} */
